@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	background:#FAFAFA;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    
+    
+	}
+
+
+header a{
+		width: 25%;
+    
+		display: inline-block;
+		margin-left: -3px;
+		text-align: center;
+		box-sizing: border-box;
+		padding: 12px;
+		z-index: 20;
+        text-decoration: none;
+        font-size: 160%;
+        color: black;
+    font-family: 'Lobster';
+        
+		
+		
+	}
+@font-facefont{
+    family: 'billabong';
+    src: url('./fonts/billabong.ttf');
+    font-weight: bold;
+    
+}
+
+		.far{
+			color: black;
+			font-size: 25px;
+
+		}
+		.fa-heart:hover{
+			color: red;
+		}
+
+.container{
+	background: white; 
+	width: 100%;
+    margin-top: 10%;
+	position: static;
+	top: 50px;
+	bottom: 0;
+   
+    
+	
+
+
+
+}
+.container .card{
+	background: #fff;
+	margin: 0 auto;
+	width: 500px; 
+	border: 1px solid #ccc;
+	border-radius:2px;
+	overflow: auto;
+    margin-top: 50px;
+
+}
+.card-header{
+	padding: 15px;
+
+}
+.card-header .profile-img {
+	display: inline-block;
+	
+	
+	position: static;
+	top: 3px;
+	margin-right: 5px;
+}
+.profile-img img{
+    height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.card-footer .icons div{
+	display: inline-block;
+	text-align: left;
+	padding: 3px;
+	width: 40px;
+
+
+}
+
+.profile-info{
+	display: inline-block;
+}
+.name{
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 18px;
+	color: #111111;
+	font-weight: 700;
+}
+.name:hover{
+	cursor: pointer;
+}
+.location{
+	font-size: 14px;
+	color: 111;
+}
+.location:hover{
+	color: blue;
+	cursor: pointer;
+}
+.time{
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 10px;
+	float: left;
+	display: inline-block;
+	color: grey;
+	top: 5px;
+	position: static;
+}
+
+
+.content .card img{
+	width: 100%;
+    
+
+	
+}	
+.card-footer{
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+.description{
+	margin: 0;
+
+}
+.description p{
+
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-size: 20px;
+	
+}
+.username{
+	font-family: 'Open Sans' , sans-serif;
+	font-weight: 650;
+
+	}
+
+.username:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+.card-footer .likes{
+	color: #111;
+	font-size: 20px; 
+	padding-bottom: 10px;
+	padding-top: 10px; 
+	font-weight: 700;
+	
+
+}
+.comments p{
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-size: 20px;
+
+}
+.card-footer.heart{
+	width: 7%;
+	display: inline-block;
+	;
+}
+form .add-comment{
+	width: 70%;
+	display: inline-block;
+}
+form .options{
+	width: 7%;
+    position: static;
+	display: inline-block;
+	float: right;
+}
+form .options i{
+	
+	padding-top: 7px;
+	margin-top: 7px;
+}
+form .add-comment input{
+	padding: 10px;
+	font-weight: 25px;
+	border:0px solid #fff;
+	width: 100%
+}
+
+form{
+	padding-top: 20px;
+}
+form .profile-img{
+	display: inline-block;
+	background-color: red;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: static;
+	top: 10px;
+	margin-right: 5px;
+}
+
+
+}
+
+
+
+
+

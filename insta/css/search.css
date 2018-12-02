@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	background:#FAFAFA;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	}
+
+a{
+		width: 25%;
+		display: inline-block;
+		margin-left: -3px;
+		text-align: center;
+		box-sizing: border-box;
+		padding: 12px;
+		z-index: 20;
+
+		
+		
+	}
+
+		.far{
+			color: black;
+			font-size: 25px;
+
+		}
+		.fa-heart:hover{
+			color: red;
+		}
+.explore{
+	background:red;
+	
+	padding-top: 30px; 
+	padding-bottom: 30px;
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	
+
+}
+.explore .main-content{
+	background: #FAFAFA;
+	margin: 0 auto;
+	width: 80%; 
+	overflow: auto;
+
+}
+
+.main-content .name{
+	text-align: left;
+	padding-left: 30px;
+	font-size: 25px;
+	padding-bottom: 30px;
+	color: grey;
+
+}
+
+.main-content .buttons button{
+	
+	width: 200px;
+	height: 160px;
+	color: #FAFAFA;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    background-color: #FAFAFA;
+    border: 0px solid #FAFAFA;
+}
+ .main-content .buttons{
+	padding-left: 30px;
+	color: #FAFAFA;
+	background-color: #FAFAFA;
+}
+.buttons img{
+	display: block;
+	border: 0px solid #FAFAFA;
+	border-radius: 15%;
+	width: 100%;
+
+	
+}
+
+.source{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 30px; 
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+	
+}
+
+
+
+
+
+
+

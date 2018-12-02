@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+	<link rel="stylesheet"  href="create.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<section class="container">
+		<ul id="slides">
+    		<li class="slide showing"><img id = "scr1" src="https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg"></li>
+    		<li class="slide"><img id = "scr2" src= "https://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg"></li>
+    		<li class="slide"><img id = "scr3" src= "https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg"></li>
+    		<li class="slide"><img id = "src4" src= "https://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg"></li>
+    		<li class="slide"><img id = "src5" src="https://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg"></li>
+		</ul>
+
+		<div class="main_image">
+			<img src="https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png">
+		</div>
+		<div class="card">
+
+			<div class="card-header">
+				<div class="profile-img">
+					<img src="logo.png" />	
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="text">
+					Sign up to see photos and videos from your friends.
+				</div>
+			</div>
+
+			<div class="button1">
+				<a href="facebook.com"><i class="fab fa-facebook"></i>                  
+				Log in with Facebook</a>
+			</div>
+
+			<div class="textfield">
+				<input type="text" placeholder="Mobile Number or Email">
+				<input type="text" placeholder="Full Name">
+				<input type="text" placeholder="Username">
+				<input type="text" placeholder="Password">	
+			</div>
+
+			<div class="button1">
+	    		<a href="index.html">           
+				 Sign up</a>
+			</div>
+
+			<div class="content">
+				<div class="text1">
+					By signing up, you agree to our <span>Terms, Data Policy</span> and <span>Cookies Policy.</span>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="log_in">
+
+			<div class="login">
+				Have an account?
+				<a href="login.html">Log in</a>
+			</div>
+
+			<div class="app">
+			Get the app.
+			</div>
+		
+			<div class="downloads">
+				<a href="https://itunes.apple.com/app/instagram/id389801252?mt=8&vt=lo">
+				<img src="appstore.png">
+				</a>
+						
+				<a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DsignupPage%26ig_mid%3DW6MZDwAEAAEr-hF2Ak6UnwkZmdNm%26utm_content%3Dlo%26utm_medium%3Dbadge">
+				<img src="playmarket.png">
+				</a>
+
+			</div>
+
+		</div>
+	</section>
+	<script>
+		var slides = document.querySelectorAll('#slides .slide');
+		var currentSlide = 0;
+		var slideInterval = setInterval(nextSlide,2000);
+		 
+		function nextSlide() {
+		    slides[currentSlide].className = 'slide';
+		    currentSlide = (currentSlide+1)%slides.length;
+		    slides[currentSlide].className = 'slide showing';
+		}
+	</script>	
+</body>
+<footer>
+	<ul class = 'links'>
+		<li><span>ABOUT US</span></li>
+		<li><span>SUPPORT</span></li>
+		<li><span>PRESS</span></li>
+		<li><span>API</span></li>
+		<li><span>JOBS</span></li>
+		<li><span>PRIVACY</span></li>
+		<li><span>TERMS</span></li>
+		<li><span>DIRECTORY</span></li>
+		<li><span>PROFILES</span></li>
+		<li><span>HASHTAGS</span></li>
+		<li><span>LANGUAGE</span></li><br>
+		<li><span class='year'> @ 2018 INSTAGRAM</span> </li>
+	</ul>
+	
+</footer>
+
+</html>

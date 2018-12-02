@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav {
+	display: block;
+}
+section{
+	display: inline-block;
+}
+body {
+	line-height: 1;
+	background: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+section{
+	display: inline-block;
+}
+.container{
+	background: #FAFAFA;
+	padding-top: 3%; 
+	width: 90%;
+	padding-left: 10%;
+
+}
+
+.main_image{
+	margin-top: 10%;
+	margin-left: 3.6%;
+	float: left;	
+}
+
+.card{
+	background: #fff;
+	width: 500px; 
+	border: 1px solid #ccc;
+	overflow: auto;
+	
+	
+}
+
+.card-header{
+	padding: 6%;
+}
+
+.profile-img{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+	padding-right: 55px;
+	padding-left: 55px;
+	color: grey;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Times New Roman;
+}
+
+.button1 a{
+	margin-top: 40px;
+	display: inline-block;
+	width: 380px;
+	padding: 10px;
+	padding-left: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: center;
+	background: rgb(24,145,248);
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:none; 
+	border: 1px solid rgb(24,145,248);
+	border-radius: 5px;
+}
+
+.textfield input{
+	display: inline-block;
+	width: 380px;
+	padding: 10px;
+	font-weight: 25px;
+	border:1px solid rgb(239,239,239);
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #FAFAFA;
+}
+
+.textfield{
+	padding-left: 40px;
+	margin-top: 40px;
+}
+	
+.text1 {
+	text-align: center;
+	width: 70%;
+	margin-left: 70px;
+	color: grey;
+	font-size: 25px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: Times New Roman;
+}
+
+.text1 span{
+	font-weight: bold;
+}
+
+
+
+.log_in{
+	text-align: center;
+	float: right;
+	margin-right: 17.6%;
+	margin-top: 1%;
+
+}
+.login{
+	background: #fff;
+	width: 500px; 
+	border: 1px solid #ccc;
+	overflow: auto;
+	height: 40px;
+	padding-top: 30px;
+}
+
+
+.app{
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	
+}
+
+.login a{
+	color: rgb(24,145,248);
+	text-decoration: none;
+}
+
+.downloads img{
+	width: 220px;
+	display: inline-block;
+}
+
+.downloads{
+	text-align: center;
+	cursor: pointer;
+}
+
+footer{
+	text-align: center;
+	background-color: #FAFAFA;
+}
+.links li{
+	color:rgb(0,48,109);
+	display: inline-block;
+	margin:10px;
+	font-family: "arial";	
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.links .year{
+	color: grey;
+	text-align: center;
+}
+
+
+form .add-comment{
+	width: 70%;
+	display: inline-block;
+}
+
+form .add-comment input{
+	padding: 10px;
+	font-weight: 25px;
+	border:0px solid #fff;
+	width: 100%
+}
+form{
+	padding-top: 20px;
+}
+form .profile-img{
+	display: inline-block;
+	background-color: red;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.main_image img{
+        display: none;
+    }
+    #slides {
+    	display: none;
+    }
+    footer{
+    	padding-left: 13%;
+    	padding-right: 13%;
+    	text-align: center;
+    }
+
+       
+}
+
+
+#slides {
+    position: relative;
+    top:221px;
+    left:195px;
+    list-style-type: none;
+}
+ 
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+ 
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+ 
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
