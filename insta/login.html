@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+	<link rel="stylesheet"  href="login.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    
+    <?php
+if(isset($_POST['submit'])){
+	$user = $_POST['username'];
+	$pass = $_POST['password'];
+	if($user=="admin" && $pass=="admin"){
+		echo("username and password matched");
+	}else{
+	echo("error ! please enter correct data!");
+	}
+}
+?>
+    
+	<section class="container">
+		<div class="card">
+
+			<div class="card-header">
+				<div class="profile-img">
+					<img src="logo.png" />	
+				</div>
+			</div>
+
+			<div class="content">
+			</div>
+
+			<div class="button1">
+				<a href="facebook.com"><i class="fab fa-facebook"></i>                  
+				Log in with Facebook</a>
+			</div>
+
+<form action="" method="post">
+            <div class="textfield">
+				<input type="text" placeholder="Mobile Number or Email" name="username">
+				
+				<input type="text" placeholder="Password" name="password">
+                <input type="submit" name="submit" value="submit" a href="index.html">
+			</div>
+
+			<div class="button1">
+	    		<a href="index.html">           
+				Login</a>
+			</div>
+            </form>
+
+            <br>
+            <br>
+        
+
+
+		
+
+		</div>
+
+		<div class="log_in">
+
+			<div class="login">
+				Do not have an account?
+				<a href="create.html">Sign in</a>
+			</div>
+
+			<div class="app">
+			Get the app.
+			</div>
+		
+			<div class="downloads">
+				<a href="https://itunes.apple.com/app/instagram/id389801252?mt=8&vt=lo">
+				<img src="appstore.png">
+				</a>
+						
+				<a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DsignupPage%26ig_mid%3DW6MZDwAEAAEr-hF2Ak6UnwkZmdNm%26utm_content%3Dlo%26utm_medium%3Dbadge">
+				<img src="playmarket.png">
+				</a>
+
+			</div>
+
+		</div>
+	</section>
+
+</body>
+<footer>
+	<ul class = 'links'>
+		<li><span>ABOUT US</span></li>
+		<li><span>SUPPORT</span></li>
+		<li><span>PRESS</span></li>
+		<li><span>API</span></li>
+		<li><span>JOBS</span></li>
+		<li><span>PRIVACY</span></li>
+		<li><span>TERMS</span></li>
+		<li><span>DIRECTORY</span></li>
+		<li><span>PROFILES</span></li>
+		<li><span>HASHTAGS</span></li>
+		<li><span>LANGUAGE</span></li><br>
+		<li><span class='year'> @ 2018 INSTAGRAM</span> </li>
+	</ul>
+	
+</footer>
+
+</html>
