@@ -195,15 +195,24 @@ ul span{
     font-size: 15px;
     
     
+    
+}
+
+.tabs a:hover{
+    color: black;
+}
+.tab1{
+    color: black;
 }
 .tabs i{
+    color: grey;
     font-size: 19px;
     margin: 0px 3px 5px 30px ;
     color: black;
 }
 .tabs a{
     text-decoration: none;
-    color: black;
+    color: grey;
     
     
 }
@@ -212,4 +221,42 @@ ul span{
     font-family: serif;
 }
 
+.cont{
+    margin-top: 80px;
+    width: 730px;
+    height: 270px;
+    display: inline-block;
+    position: absolute;
+    background: white;
+    
+}
+.post1 img{
+    width: 270px;
+    
+}
+.text1{
+    margin-left: 320px;
+    margin-top: -200px;
+   
+}
+.text1 p{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+.text1 p1{
+    margin-left:35px;
+    
+    
+}
+.downloads {
+    margin-top: 30px;
+    margin-left: 350px;
+    
+}
+.downloads img{
+    width: 150px;
+}
 

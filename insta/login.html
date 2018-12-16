@@ -9,17 +9,7 @@
 </head>
 <body>
     
-    <?php
-if(isset($_POST['submit'])){
-	$user = $_POST['username'];
-	$pass = $_POST['password'];
-	if($user=="admin" && $pass=="admin"){
-		echo("username and password matched");
-	}else{
-	echo("error ! please enter correct data!");
-	}
-}
-?>
+    
     
 	<section class="container">
 		<div class="card">
@@ -38,18 +28,15 @@ if(isset($_POST['submit'])){
 				Log in with Facebook</a>
 			</div>
 
-<form action="" method="post">
+<form action="login.php" method="post">
             <div class="textfield">
 				<input type="text" placeholder="Mobile Number or Email" name="username">
 				
 				<input type="text" placeholder="Password" name="password">
-                <input type="submit" name="submit" value="submit" a href="index.html">
+                <input type="submit" name="submit" value="Login" a href="index.html">
 			</div>
 
-			<div class="button1">
-	    		<a href="index.html">           
-				Login</a>
-			</div>
+			
             </form>
 
             <br>
